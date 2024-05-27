@@ -1,0 +1,477 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wdth,wght@0,62.5..100,100..900;1,62.5..100,100..900&display=swap');*{
+    
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Noto Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;    
+}
+
+body{
+    background-color: #e6f3f6;
+    color: black;
+
+}
+
+header{
+    background-image: url("imgs/pexels-asadphoto-457881.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+}
+
+span{
+    font-weight: bold;
+}
+    
+
+.container{
+    backdrop-filter: blur(4px);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    
+}
+
+.text{
+    border-radius: 20px;
+    width: 80%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.text h1,h3{
+    width: 90%;
+}
+
+.text h1{
+font-weight: 500;
+font-size: 45px;
+}
+
+.text h3{
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.container button{
+    margin-top: -15%;
+    cursor: pointer;
+    background-color: #39b54a;
+    color: white;
+    height: 60px;
+    width: 300px;
+    border: 0;
+    border-radius: 20px;
+}
+
+.wrapper{
+    margin-top: 50px;
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.wrapper h2{
+    width: 100%;
+    padding: 0 5%;
+    text-align: center;
+}
+
+
+.box-wrapper{
+    margin-top: 30px;
+    height: 300px;
+    width: 33.3%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box{
+    width: 80%;
+    height: 300px;
+    background-color: white;
+    box-shadow: 0px 6px 15px 16px rgba(0,0,0,0.1);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+.box-text{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.box-text h2{
+    font-size: 28px;
+}
+
+.box-text p{
+    margin-top: 10px;
+    padding: 0 4%;
+    font-size: 20px;
+}
+
+
+
+
+
+/*
+*/
+
+section .beneficos{
+    width: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.beneficos{
+    width: 100%;
+    margin-top: 100px;
+    text-align: center;
+}
+
+.beneficos img{
+    width: 65%;
+    box-shadow: 0px 6px 15px 16px rgba(0,0,0,0.1);
+}
+
+/*
+
+
+*/
+
+section.function{
+    margin: 100px 0px;
+    width: 100%;
+    height: 500px;
+    background-color:#a3e6f5 ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-function{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.title h1{
+    padding: 0 2%;
+    font-size: 45px;
+    text-align: center;
+}
+
+
+
+.text-function h3{
+    margin-top: 40px;
+    width: 70%;
+    font-size: 27px;
+    text-align: center;
+}
+
+
+/*
+
+
+*/
+
+section.for-who{
+    width: 100%;
+}
+
+.text-for{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+
+.wth-60{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60%;
+}
+
+.wth-40{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40%;
+}
+
+.text-for p{
+    text-align: left;
+    font-size: 22px;
+    padding: 0 10%;
+}
+
+.img{
+    width: 100%;
+    height: 700px;
+    background-image: url('imgs/BENEFICIOS\ \(615\ x\ 700\ px\).png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+
+
+/*
+
+*/
+
+
+.para-quem h1{
+    margin-top: 70px;
+}
+
+.img1{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+}
+
+
+/*
+
+
+*/
+
+.row {
+    margin-top: 20px;
+    background-color: white;
+    width: 60%;
+    height: 80px;
+    box-shadow: 0px 6px 15px 16px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    padding: 0 15px;
+}
+
+.row h4 {
+    width: 30%;
+    font-weight: bold;
+    margin: 0;
+    padding-right: 20px;
+    font-size: 25px;
+}
+
+.row p {
+    font-size: 18px;
+    width: 70%;
+    margin: 0;
+}
+
+
+/*
+
+
+*/
+
+.resumo{
+    padding: 0 2%;
+    margin-bottom: 20px;
+}
+
+
+
+/*
+
+
+*/
+
+section.provas{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+
+.provas{
+    width: 100%;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.provas img{
+    width: 50%;
+}
+
+.imagens{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+
+
+
+@media only screen and (max-width: 1000px){
+
+    .box-wrapper{
+        margin-top: 30px;
+        height: 300px;
+        width: 50% !important;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .title h1{
+        font-size: 35px;
+        text-align: center;
+    }
+    
+    .text-function h3{
+        margin-top: 40px;
+        width: 70%;
+        font-size: 22px;
+        text-align: center;
+    }
+
+    .text-for{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .wth-60{
+        width: 100%;
+    }
+    
+    .wth-40{  
+        width: 100%;
+    }
+
+}
+
+@media only screen and (max-width: 900px){
+
+    .beneficos img{
+        width: 100%;
+    }
+
+    .text-for p{
+        font-size: 22px;
+       margin-top: 50px;
+    }
+
+    .row h4 {
+        font-size: 20px;
+    }
+
+    .row p {
+        font-size: 15px;
+    }
+
+    .row {
+        width: 80%;
+    }
+
+    .provas img{
+        width: 100%;
+    }
+    
+    .imagens{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    
+    
+
+}
+
+
+@media only screen and (max-width: 550px){
+    .box-wrapper{
+        width: 100% !important;
+    }
+    .text h1{
+        font-weight: 500;
+        font-size: 35px;
+    }
+
+    .box-text h2{
+        font-size: 25px;
+    }
+    
+    .box-text p{
+        font-size: 17px;
+        padding: 0 4%;
+    }
+
+    .title h1{
+        font-size: 35px;
+        text-align: center;
+    }
+    
+    .text-function h3{
+        margin-top: 40px;
+        width: 70%;
+        font-size: 17px;
+        text-align: center;
+    }
+
+
+    .img{
+        height: 500px; 
+    }
+
+    .row h4 {
+        font-size: 16px;
+    }
+
+    .row p {
+        font-size: 14px;
+    }
+
+    .row {
+        width: 90%;
+        padding: 0 5px;
+
+    }
+
+    }
+}
