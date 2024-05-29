@@ -481,6 +481,7 @@ section.provas{
     border: 0;
     border-radius: 20px;
     font-size: 18px;
+    margin-top: 50px;
 }
 
 a{
@@ -535,6 +536,59 @@ section.garantia{
     width: 70%;
 } 
 
+
+
+
+/*
+
+*/
+
+
+.faq-section {
+    margin: 50px 0;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    box-shadow: 0px 6px 15px 16px rgba(0, 0, 0, 0.1);
+    background-color: white;
+    border-radius: 10px;
+}
+.faq-title {
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.faq-item {
+    margin-bottom: 10px;
+}
+.faq-question {
+    cursor: pointer;
+    font-size: 24px;
+    padding: 10px;
+    background-color: #f1f1f1;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+.faq-question:hover {
+    color: #0072dd;
+    cursor: pointer;
+    font-size: 24px;
+    padding: 10px;
+    background-color: #e0e0e0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+.faq-answer {
+    display: none;
+    padding: 10px;
+    border-left: 3px solid #0a1b35;
+    margin-top: 5px;
+    background-color: #fafafa;
+    border-radius: 5px;
+}
 
 
 
@@ -622,7 +676,7 @@ section.garantia{
         border-radius: 20px;
         font-size: 18px;
         margin-top: 50px;
-        transition: 0.6s;
+        transition: 0.3s;
     }
     
     .block-text button:hover{
@@ -634,6 +688,7 @@ section.garantia{
         border: 0;
         border-radius: 20px;
         font-size: 18px;
+        margin-top: 50px;
     }
 
     .block{
@@ -721,6 +776,16 @@ section.garantia{
     .block-text{
         padding-top: 40px;
        
+    }
+
+    
+
+    .faq-section {  
+        width: 90%;    
+    }
+
+    .faq-question {
+        font-size: 20px;    
     }
 
 }
@@ -823,6 +888,7 @@ section.garantia{
         border: 0;
         border-radius: 20px;
         font-size: 18px;
+        margin-top: 50px;
     }
 
 
